@@ -20,8 +20,8 @@ public class Funcionario {
     public void exibirDados(){
         System.out.println("-------Funcionário--------");
         System.out.println("DADOS SALARIAIS: ");
-        System.out.println("SALÁRIO: R$" + salario );
-        System.out.println("GANHOS ANUAIS: R$" + ganhoAnual());
+        System.out.printf("SALÁRIO: R$ %.2f%n" + salario );
+        System.out.printf("GANHOS ANUAIS: R$ %.2f%n" + ganhoAnual());
     }
 
     public String getNome() {

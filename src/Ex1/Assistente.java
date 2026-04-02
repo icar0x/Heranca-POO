@@ -19,10 +19,10 @@ public class Assistente extends Funcionario {
 
     public void exibirDados(){
         System.out.println("=== Assistente ===");
-        System.out.println("Nome:         " + getNome());
-        System.out.println("Matrícula:    " + numeroMatricula);
-        System.out.printf("Salário:      R$ %.2f%n", getSalario());
-        System.out.printf("Ganho anual:  R$ %.2f%n", ganhoAnual());
+        System.out.println("Nome: " + getNome());
+        System.out.println("Matrícula: " + numeroMatricula);
+        System.out.printf("Salário: R$ %.2f%n", getSalario());
+        System.out.printf("Ganho anual: R$ %.2f%n", ganhoAnual());
     }
 }
 
